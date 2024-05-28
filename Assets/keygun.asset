@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d3e208064f7824c9d3b2d4ffd4acbd, type: 3}
+  m_Name: keygun
+  m_EditorClassIdentifier: 
+  points: []
+  Muzzles:
+  - position: {fileID: 0}
+    MuzzleMode: 0
+    PointsNumber: 1
+    DistenceBetweenPoints: 0
+    radius: 0
+    AutoCalculateStepAngle: 0
+    stepangle: 0
+    FireAngleModifier: 0
+  ChildsPosAndRotations:
+  - Position: {x: 0.21, y: 0.041, z: 0}
+    Rotation: {x: 0, y: 0, z: 0, w: 1}
+  FireMode: 0
+  FireRate: 0.15
+  BurstCount: 0
+  TimebetweenShots: 0
+  TimeBetweenBursts: 0
+  ProjectilesCount: 0
+  RandomSpread: 0
+  MinAngle: 0
+  MaxAngle: 0
+  SpreadFactor: 0
+  AutoShooting: 0
+  Recoil: 1
+  RecoilForce: 1
+  RecoilRecoveryTime: 1
+  RecoilCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.07553327
+      outSlope: 0.07553327
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.38276938
+    - serializedVersion: 3
+      time: 2.1555398
+      value: 0.99224377
+      inSlope: 0.0846238
+      outSlope: 0.0846238
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.26666668
+    - serializedVersion: 3
+      time: 5.9246244
+      value: 0.0049711466
+      inSlope: -0.0065715485
+      outSlope: -0.0065715485
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 9.859954
+      value: 1.0013944
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  projectile: {fileID: 5556653564801390782, guid: c862f5f9f8ba491488025b249a51dec0, type: 3}
+  projectileType: 1
+  speed: 7
+  UnlimitedLifeTime: 1
+  lifetime: 5
+  DestroyOnDistenceTravled: 1
+  MaxDistence: 7
+  ProjectileGravityModifier: 0
+  ProjectileImpactEffect: {fileID: 1913032113924028086, guid: 8db7bae9a42e525448caf70d59cb5249, type: 3}
+  Damege: 2
+  DamegeToStructure: 3
+  FollowStrength: 0
+  UnlimitedAmmo: 0
+  MaxAmmo: 360
+  UnlimitedMagazineSize: 0
+  MagazineSize: 10
+  ReloadTime: 1
+  PartialAmmoFire: 1
+  AutoReload: 0
+  countEachProjectile: 1
+  ammoPerShot: 0
