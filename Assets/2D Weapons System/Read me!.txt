@@ -1,0 +1,50 @@
+# 2D Weapons Maker (Shooting System)
+
+2D Weapons Maker (Shooting System) is a user-friendly tool that simplifies the process of adding weapons to your 2D games. With a wide range of customizable features, you can effortlessly create, customize, and integrate weapons into your game world. Whether you're a beginner or an experienced developer, this asset streamlines weapon implementation, allowing you to focus on creating engaging gameplay experiences.
+
+## Installation
+
+1. Download the asset package from the Unity Asset Store.
+2. Import the package into your Unity project.
+
+## Getting Started
+
+To get started quickly with 2D Weapons Maker, follow these simple steps:
+
+1. Open the "ExampleScene" included with the asset.
+2. Customize the weapon's properties using the Inspector.
+3. Play the scene and test your weapon.
+
+For more detailed instructions and documentation , please visit the youtube video : https://youtu.be/Hc7Unb5hsu0
+
+## Usage
+
+2D Weapons Maker provides a range of features to enhance your game:
+
+- **Muzzle Customization:** Tailor weapon muzzles with precision.
+- **Customizable Firing Modes:** Define unique firing behaviors.
+- **Versatile Projectile Settings:** Tailor your weapon's projectiles to suit your game's needs.
+- **Ammo Handling:** Manage ammunition with flexibility.
+- **Aim Handling:** Implement accurate aiming mechanics.
+- **Sound Support:** Enhance gameplay with immersive audio.
+- **Customizable Input Control and Events Support:** Easily integrate player input and events into your weapons.
+- **Save as Scriptable Object:** Preserve your weapon configurations as reusable Scriptable Objects, streamlining your development process and making it easy to share your creations across projects.
+
+
+
+## Troubleshooting
+
+If you encounter any issues or have questions,  feel free to [contact us](mailto:aktham.s2004@gmail.com)(Discord : aktham).
+
+## Version History
+
+- **Version 1.0:** Initial release.
+
+
+## Feedback and Contributions
+
+We welcome your feedback, bug reports, and contributions to improve this asset.
+
+---
+
+Thank you for choosing 2D Weapons Maker (Shooting System). We hope you enjoy using it in your game development journey!
