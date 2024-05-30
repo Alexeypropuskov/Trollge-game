@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1493455710562800562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 97404963292419286}
+  - component: {fileID: 9218149967938220355}
+  m_Layer: 0
+  m_Name: Mosin nagant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &97404963292419286
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493455710562800562}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6436188102837062832}
+  - {fileID: 9175862947913203370}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9218149967938220355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493455710562800562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a519bc73d2aeb5e46af50885f8325fe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponData: {fileID: 0}
+  Muzzles:
+  - position: {fileID: 9175862947913203370}
+    MuzzleMode: 0
+    PointsNumber: 1
+    DistenceBetweenPoints: 0.0001
+    radius: 0
+    AutoCalculateStepAngle: 0
+    stepangle: 0
+    FireAngleModifier: 0
+  FireMode: 2
+  projectile: {fileID: 5556653564801390782, guid: bd81bef24d6826848a44b64100bfd18e, type: 3}
+  projectileType: 0
+  Damege: 2
+  DamegeToStructure: 3
+  speed: 7
+  UnlimitedLifeTime: 0
+  lifetime: 5
+  DestroyOnDistenceTravled: 1
+  MaxDistence: 7
+  ProjectileGravityModifier: 0.12
+  ProjectileTarget: {fileID: 0}
+  ProjectileImpactEffect: {fileID: 1913032113924028086, guid: 56d88debd23263b4d8a7ae17a1aa76cd, type: 3}
+  FollowStrength: 0
+  UsePlayerInputs: 1
+  FireKey: 323
+  Recoil: 1
+  RecoilForce: 1
+  RecoilRecoveryTime: 1
+  RecoilCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.07553327
+      outSlope: 0.07553327
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.38276938
+    - serializedVersion: 3
+      time: 2.1555398
+      value: 0.99224377
+      inSlope: 0.0846238
+      outSlope: 0.0846238
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.26666668
+    - serializedVersion: 3
+      time: 5.9246244
+      value: 0.0049711466
+      inSlope: -0.0065715485
+      outSlope: -0.0065715485
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 9.859954
+      value: 1.0013944
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  recoilfactor: 0
+  ShootingTimer: 0
+  NotShootingTimer: 0
+  FireRate: 0.15
+  BurstCount: 0
+  TimebetweenShots: 0
+  TimeBetweenBursts: 0
+  ProjectilesCount: 0
+  RandomSpread: 0
+  MinAngle: 0
+  MaxAngle: 0
+  SpreadFactor: 0
+  AutoShooting: 0
+  UnlimitedAmmo: 0
+  MaxAmmo: 360
+  UnlimitedMagazineSize: 0
+  MagazineSize: 5
+  ReloadTime: 1
+  PartialAmmoFire: 1
+  AutoReload: 0
+  ReloadKey: 114
+  countEachProjectile: 1
+  ammoPerShot: 0
+  ShootSound:
+    Clip: {fileID: 8300000, guid: c4c90b19ccaeacb4dab4b81a283feb89, type: 3}
+    CreateAudioSource: 1
+    Source: {fileID: 0}
+    volume: 0.3
+    DelayTime: 0
+  ReloadSound:
+    Clip: {fileID: 8300000, guid: bdc7c0f614533554b8f1bb0c74ac4bef, type: 3}
+    CreateAudioSource: 1
+    Source: {fileID: 0}
+    volume: 0.3
+    DelayTime: 0
+  NoAmmoSound:
+    Clip: {fileID: 8300000, guid: e49608232ed5ba940950f7706d6a27ac, type: 3}
+    CreateAudioSource: 1
+    Source: {fileID: 0}
+    volume: 0.2
+    DelayTime: 0
+  currentAmmoText: {fileID: 0}
+  magazineSizeText: {fileID: 0}
+  currentTotalAmmoText: {fileID: 0}
+  AimActive: 1
+  AimAtCursor: 1
+  AimTarget: {fileID: 0}
+  RotateSpeed: 30
+  RotationRadius: 0.3
+  OnShoot:
+    m_PersistentCalls:
+      m_Calls: []
+  OnReloadStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: reload
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnReloadEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  noAmmoSoundCooldown: 0
+--- !u!1 &2344280809223803996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9175862947913203370}
+  m_Layer: 0
+  m_Name: wepon Muzzle 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9175862947913203370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2344280809223803996}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.8009, y: 0.152, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 97404963292419286}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5656020792834995566
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 97404963292419286}
+    m_Modifications:
+    - target: {fileID: -8653719598885068355, guid: c84625a56dd89be4f9bf7859a4a3ed73, type: 3}
+      propertyPath: m_Name
+      value: mosin rifle
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: c84625a56dd89be4f9bf7859a4a3ed73, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.209
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: c84625a56dd89be4f9bf7859a4a3ed73, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: c84625a56dd89be4f9bf7859a4a3ed73, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: c84625a56dd89be4f9bf7859a4a3ed73, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: c84625a56dd89be4f9bf7859a4a3ed73, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: c84625a56dd89be4f9bf7859a4a3ed73, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: c84625a56dd89be4f9bf7859a4a3ed73, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: c84625a56dd89be4f9bf7859a4a3ed73, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: c84625a56dd89be4f9bf7859a4a3ed73, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7552582706839291426, guid: c84625a56dd89be4f9bf7859a4a3ed73, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: c84625a56dd89be4f9bf7859a4a3ed73, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3062800648435740997}
+  m_SourcePrefab: {fileID: 4843985084834002234, guid: c84625a56dd89be4f9bf7859a4a3ed73, type: 3}
+--- !u!1 &5303541815255340243 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8653719598885068355, guid: c84625a56dd89be4f9bf7859a4a3ed73, type: 3}
+  m_PrefabInstance: {fileID: 5656020792834995566}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &3062800648435740997
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5303541815255340243}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c8374ddbec0215e44aed26f68143dc4d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &6436188102837062832 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7552582706839291426, guid: c84625a56dd89be4f9bf7859a4a3ed73, type: 3}
+  m_PrefabInstance: {fileID: 5656020792834995566}
+  m_PrefabAsset: {fileID: 0}
