@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d3e208064f7824c9d3b2d4ffd4acbd, type: 3}
+  m_Name: mosinka
+  m_EditorClassIdentifier: 
+  points: []
+  Muzzles:
+  - position: {fileID: 0}
+    MuzzleMode: 0
+    PointsNumber: 1
+    DistenceBetweenPoints: 0.0001
+    radius: 0.0001
+    AutoCalculateStepAngle: 0
+    stepangle: 0
+    FireAngleModifier: 0
+  ChildsPosAndRotations:
+  - Position: {x: 0.59988225, y: 0.15540707, z: 0}
+    Rotation: {x: -0, y: -0, z: 0.00065955153, w: 0.9999998}
+  FireMode: 2
+  FireRate: 1
+  BurstCount: 0
+  TimebetweenShots: 0
+  TimeBetweenBursts: 0
+  ProjectilesCount: 0
+  RandomSpread: 0
+  MinAngle: 0
+  MaxAngle: 0
+  SpreadFactor: 0
+  AutoShooting: 0
+  Recoil: 1
+  RecoilForce: 1
+  RecoilRecoveryTime: 1
+  RecoilCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  projectile: {fileID: 5556653564801390782, guid: bd81bef24d6826848a44b64100bfd18e, type: 3}
+  projectileType: 0
+  speed: 100
+  UnlimitedLifeTime: 0
+  lifetime: 10
+  DestroyOnDistenceTravled: 1
+  MaxDistence: 5
+  ProjectileGravityModifier: 1
+  ProjectileImpactEffect: {fileID: 1913032113924028086, guid: 56d88debd23263b4d8a7ae17a1aa76cd, type: 3}
+  Damege: 10
+  DamegeToStructure: 10
+  FollowStrength: 30
+  UnlimitedAmmo: 0
+  MaxAmmo: 30
+  UnlimitedMagazineSize: 0
+  MagazineSize: 5
+  ReloadTime: 1
+  PartialAmmoFire: 0
+  AutoReload: 0
+  countEachProjectile: 1
+  ammoPerShot: 1
